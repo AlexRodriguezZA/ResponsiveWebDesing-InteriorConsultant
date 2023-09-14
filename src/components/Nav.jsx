@@ -29,7 +29,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-11/12  max-w-[1400px] md:px-10  md:w-full h-16 flex flex-row md:flex-nowrap md:h-20 justify-between items-center text-white bg-[#181719]">
+    <nav className="w-11/12  max-w-[1400px] md:px-10  md:w-full h-16 flex flex-row md:flex-nowrap md:h-20 justify-between items-center text-white bg-[#181719] z-[1]">
         <ul className="h-full flex justify-center items-center mt-4 ml-3">
           <li style={{ fontFamily: "'Crimson Pro', serif"}} className="text-sm font-extralight px-2 py-2 border uppercase hover:cursor-pointer">This Interior</li>
         </ul>
